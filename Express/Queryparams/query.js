@@ -8,8 +8,8 @@ app.get("/", (req, res) => {
 })
 
 app.get("/search", (req, res) => {
-    const name = req.query.name; //using query method to find the name
-    const id = req.query.id;    //using query method to find the id
+    const name = req.query.name;    //using query method to find the name
+    const id = req.query.id;        //using query method to find the id
 
     const searchlistBynum = data.filter((e) => e.id == id) //Array to filter by id
     const searchlistByname = data.filter((e) => e.name == name) //Array to filter by name
