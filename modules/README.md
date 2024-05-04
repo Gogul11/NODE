@@ -1,4 +1,4 @@
-Module is a small section of code that can be reused.
+odule is a small section of code that can be reused.
 There are buit-in and used defined modules.
 
 To used the user defined modules we need to export that module first and then we need to import the module in the main file.
