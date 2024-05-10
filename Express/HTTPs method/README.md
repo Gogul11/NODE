@@ -11,3 +11,10 @@ Generally the POST method is hides the data that is entered in the form while th
 The data that is sent through the POST method is retrived using a middelware functions called body-parser module which contains the urlencoded() method which is used prases the argument.
 
         urlencoded({extended : false})
+
+PUT and DELETE are the two other methods in express which is used for different purposes.
+These medthod can access the request objects.
+
+PUT - PUT is used to update the existing resource on the server and it updates the full resource.
+
+DELTE - DELETE Method is used to delete the resources from a server. It deletes resource identified by the Request-URI.
