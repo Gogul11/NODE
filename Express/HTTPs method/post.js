@@ -36,7 +36,8 @@ app.put("/update", (req, res) => {
 
 })
 
-app.delete("del/:id", (req, res) => {
+
+app.delete("/del/:id", (req, res) => {
     const id = req.params.id
 
     const index = data.findIndex((e) => Number(e.id) === Number(id));
